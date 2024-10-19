@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(240, 229, 252);
+}
+
+.containerfrst, .containerscnd, .containerthrd {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.mainphoto {
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.ava {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+}
+
+.columnfoot {
+    display: flex;
+    flex-direction: column;
+}
+
+.columnfoot p {
+    margin: 0%;
+}
+
+.main {
+    margin: 0px 20px;
+}
+
+h1, p, span {
+    font-family: "Quicksand", sans-serif;
+}
+
+span {
+    margin-left: 120px;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+.foot p {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.grayp, hr {
+    color: rgba(0, 0, 0, 0.403);
+}
+
+hr {
+    margin: 15px 0px;
+}
+
+.mainp {
+    font-size: 15px;
+}
